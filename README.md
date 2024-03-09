@@ -20,7 +20,7 @@ The function must exist and be in scope.
 Here's a basic example of how to use it:
 
 ```rust
-#[around(database_clean)]
+#[both(database_clean)]
 fn fancy_func(){
     // Your function code here...
 }
